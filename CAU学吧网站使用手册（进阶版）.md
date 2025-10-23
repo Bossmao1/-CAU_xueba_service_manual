@@ -30,7 +30,7 @@ for(i=1;i<=n;i++)
 
 6、头文件说明
 
-​	字符串（string）头文件建议使用*#include <string>*。*#include<cstring>*和*#include <string.h>*都有概率编译不通过。建议同时使用*#include <math.h>*和*#include <cmath>*提高通过概率
+​	字符串（string）头文件建议使用*。*#include < string>和*#include <string.h>*都有概率编译不通过。建议同时使用#include <math.h>和#include < cmath>提高通过概率
 
 7、字符串是可以包含空格的，你应该这样读取一个字符串：
 
